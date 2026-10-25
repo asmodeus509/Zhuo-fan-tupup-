@@ -1,0 +1,13 @@
+ZHUO FAN HT — BACKEND + VERSION VIDEO REVOIR
+
+1. Installer Python 3.10+ sur un ordinateur/serveur.
+2. Dans le dossier zhuo_backend : python server.py
+3. Ouvrir l'adresse locale affichée par le serveur (consulter README.md).
+
+API tutoriel :
+GET /api/guide : lien chaîne + URL vidéo
+POST /api/admin/guide : modifier lien chaîne (auth admin)
+POST /api/admin/guide-video : téléverser vidéo MP4/WebM (auth admin)
+GET /api/guide-video : lire vidéo
+
+ATTENTION : La version HTML conserve certaines données en local et n'est pas complètement branchée à l'API pour tous les parcours. Ne pas utiliser avec de vrais paiements avant intégration et tests de sécurité complets. Ne pas exposer le serveur de démonstration directement à Internet.
